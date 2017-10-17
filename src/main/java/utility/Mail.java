@@ -15,7 +15,7 @@ public class Mail {
 		email.setSSLOnConnect(true);
 		email.setFrom("minu@gmail.com");
 		email.setSubject("TestMail");
-		email.setMsg("This is a test mail ... :-)");
+		email.setMsg("This is a test mail to learn selenium fw ... :-)");
 		email.addTo("minucharles@gmail.com");
 		email.send();
 			
