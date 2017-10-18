@@ -4,10 +4,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
-public class ConfigDataReader {
+public class ConfigReader {
 	Properties pro;
 
-	public ConfigDataReader(){
+	public ConfigReader(){
 
 		File src = new File("./ConfigData/config.properties");
 

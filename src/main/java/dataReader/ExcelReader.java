@@ -5,10 +5,10 @@ import java.io.FileInputStream;
 
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class ExcelDataReader {
+public class ExcelReader {
 	XSSFWorkbook wb;
 	
-	public ExcelDataReader(){
+	public ExcelReader(){
 		
 		File src = new File("./AppData/AppData.xlsx");
 		

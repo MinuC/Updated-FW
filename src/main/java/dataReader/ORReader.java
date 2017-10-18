@@ -8,11 +8,11 @@ package dataReader;
 
 	import org.openqa.selenium.WebDriver;
 
-	public class ORDataReader {
+	public class ORReader {
 		
 			Properties prop;// Here prop should be public and static to access across all pages
 			
-		public ORDataReader(){
+		public ORReader(){
 			
 			  File src = new File("./ObjRepo/OR.properties");
 
