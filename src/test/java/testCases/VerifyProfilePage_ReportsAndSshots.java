@@ -42,7 +42,7 @@ ExtentReports report;
 ExtentTest logger;
 
 	@BeforeTest
-	public void setUp(){
+	public void setUp() throws EmailException{
 		driver = BrowserFactory.getBrowser("Firefox");
 		
 		report = new ExtentReports(".\\Reports\\PatientProfilePage.html", true);
@@ -50,6 +50,7 @@ ExtentTest logger;
 		
 		driver.get(DataProviderFactory.getConfig().getApplicationUrl());	
 		logger.log(LogStatus.INFO, "Application up and running");	
+		Mail.SendEmail();
 	}
 	
 	@Test(priority=0)

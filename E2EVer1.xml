@@ -3,7 +3,7 @@
 <suite name="E2ESuite">
   <test name="E2EVer1">
     <classes>     
-      <class name="testCases.VerifyProfilePage"/>
+      <class name="testCases.VerifyProfilePage_ReportsAndSshots"/>
       <!--class name="testCases.VerifyPatientHomePage"  -->
       <!--class name="testCases.VerifyMMPHomePage"  --> 
       <!--class name="testCases.VerifyPatientLoginPage" -->   
