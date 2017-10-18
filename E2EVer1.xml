@@ -4,9 +4,9 @@
   <test name="E2EVer1">
     <classes>     
       <class name="testCases.VerifyProfilePage"/>
-      <class name="testCases.VerifyPatientHomePage"/> 
-      <class name="testCases.VerifyMMPHomePage"/> 
-      <class name="testCases.VerifyPatientLoginPage"/>   
+      <!--class name="testCases.VerifyPatientHomePage"  -->
+      <!--class name="testCases.VerifyMMPHomePage"  --> 
+      <!--class name="testCases.VerifyPatientLoginPage" -->   
     </classes>
   </test> <!-- E2EVer1 -->
 </suite> <!-- E2ESuite -->
